@@ -1,0 +1,32 @@
+{
+  "name": "normalizacion-22",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "faker": "^6.6.6",
+    "mongoose": "^6.3.6",
+    "nodemon": "^2.0.16",
+    "normalizr": "^3.6.2",
+    "socket.io": "^4.5.1",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.3"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.2.0",
+    "@types/express": "^4.17.13",
+    "@types/node": "^17.0.42"
+  }
+}
